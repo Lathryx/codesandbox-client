@@ -82,9 +82,8 @@ from File > Preferences > Settings in the editor.
   type and size of files you want to upload.
 - In container sandboxes, there is a sync limit of 10 files per second and only
   files up to 2MB are synced with the editor. Files larger than that still exist
-  but are not shown in the editor's file tree. You're still able to write and
-  read to and from them in your code code and they can be seen and edited via
-  the terminal.
+  but are not shown in the editor's file tree. You're still able to read and
+  write to and from your code via the terminal.
 - Terminal commands which alter the filesystem of the container instance aren't
   synced with files shown in the editor. You'll need to refresh to see files
   updated this way.
